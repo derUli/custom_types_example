@@ -12,3 +12,5 @@ add_translation ( "product_color", "Farbe" );
 add_translation ( "product_available", "Produkt verfügbar" );
 add_translation ( "hold_ctrl_to_select_multiple", "Strg + Klick für eine Mehrfachauswahl" );
 add_translation ( "zip_codes", "Postleitzahlen" );
+add_translation ( "my_image", "Mein Bild" );
+add_translation ( "my_file", "Meine Datei" );

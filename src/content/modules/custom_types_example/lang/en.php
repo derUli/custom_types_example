@@ -12,3 +12,5 @@ add_translation ( "product_color", "Color" );
 add_translation ( "product_available", "Product available" );
 add_translation ( "hold_ctrl_to_select_multiple", "Ctrl + Click for multiple select" );
 add_translation ( "zip_codes", "Zip-Codes" );
+add_translation ( "my_image", "My Image" );
+add_translation ( "my_file", "My File" );

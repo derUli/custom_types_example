@@ -89,6 +89,18 @@ class CustomTypesExample extends Controller {
 		$field12->title = "locked";
 		$product->customFields [] = $field12;
 		
+		$field13 = new FileImage ();
+		$field13->name = "my_image";
+		$field13->title = "my_image";
+		$field13->defaultValue = "";
+		$product->customFields [] = $field13;
+		
+		$field14 = new FileFile ();
+		$field14->name = "my_file";
+		$field14->title = "my_file";
+		$field14->defaultValue = "";
+		$product->customFields [] = $field14;
+		
 		$types ["product"] = $product;
 		return $types;
 	}
