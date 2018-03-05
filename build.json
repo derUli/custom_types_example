@@ -1,9 +1,9 @@
 {
 	"id": "custom_types_example",
-	"version": "0.2",
+	"version": "0.3",
 	"description": "Custom Types Programming example",
 	"categories": [
 		"development"
 	],
-	"compatible_from": "2018.1"
+	"compatible_from": "2018.3"
 }
