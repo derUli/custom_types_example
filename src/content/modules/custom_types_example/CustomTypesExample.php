@@ -71,6 +71,9 @@ class CustomTypesExample extends Controller {
 				"enabled" => get_translation ( "enabled" ),
 				"disabled" => get_translation ( "disabled" ) 
 		);
+		
+		$product->customFields [] = $field10;
+		
 		$field11 = new MultiSelectField ();
 		$field11->name = "zip_codes";
 		$field11->title = "zip_codes";
