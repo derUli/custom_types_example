@@ -1,12 +1,15 @@
 {
-	"source": "extend",
-	"version": "0.5",
-	"embed": false,
-	"controllers": {
-		"CustomTypesExample": "CustomTypesExample.php"
-	},
-	"main_class": "CustomTypesExample",
-	"type_classes": {
-		"product": "Page"
-	}
+    "source": "extend",
+    "version": "0.6",
+    "embed": false,
+    "controllers": {
+        "CustomTypesExample": "CustomTypesExample.php"
+    },
+    "models": {
+        "Product": "models/Product.php"
+    },
+    "main_class": "CustomTypesExample",
+    "type_classes": {
+        "product": "Product"
+    }
 }
