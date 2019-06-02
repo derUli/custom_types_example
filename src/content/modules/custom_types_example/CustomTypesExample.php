@@ -43,7 +43,7 @@ class CustomTypesExample extends Controller {
 		$field6 = new DatetimeField ();
 		$field6->name = "date";
 		$field6->title = "date";
-		$field6->defaultValue = date ( "Y-m-d\TH:i:s" );
+		$field6->defaultValue = date("c", time());
 		$product->customFields [] = $field6;
 		
 		$field7 = new NumberField ();

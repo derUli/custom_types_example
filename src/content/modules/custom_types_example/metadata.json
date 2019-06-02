@@ -1,6 +1,6 @@
 {
     "source": "extend",
-    "version": "0.6",
+    "version": "0.7",
     "embed": false,
     "controllers": {
         "CustomTypesExample": "CustomTypesExample.php"
