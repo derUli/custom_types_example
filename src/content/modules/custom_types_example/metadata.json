@@ -1,15 +1,12 @@
 {
     "source": "extend",
-    "version": "0.7",
+    "version": "0.8",
     "embed": false,
     "controllers": {
         "CustomTypesExample": "CustomTypesExample.php"
     },
-    "models": {
-        "Product": "models/Product.php"
-    },
     "main_class": "CustomTypesExample",
     "type_classes": {
-        "product": "Product"
+        "product": "Page"
     }
 }
