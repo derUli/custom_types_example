@@ -1,4 +1,5 @@
 <?php
+use UliCMS\Helpers\NumberFormatHelper;
 
 // this module demonstrates the new "Custom Fields" feature of UliCMS 2018.1
 class CustomTypesExample extends Controller {
@@ -45,7 +46,7 @@ class CustomTypesExample extends Controller {
         $field6 = new DatetimeField ();
         $field6->name = "date";
         $field6->title = "date";
-        $field6->defaultValue = date("Y-m-d\TH:i:s");
+        $field6->defaultValue = NumberFormatHelper::timestampToSqlDate();
         $product->customFields [] = $field6;
 
         $field7 = new NumberField ();

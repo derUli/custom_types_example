@@ -5,8 +5,11 @@
     "controllers": {
         "CustomTypesExample": "CustomTypesExample.php"
     },
+    "models" : {
+        "Product": "models/Product.php"
+    },
     "main_class": "CustomTypesExample",
     "type_classes": {
-        "product": "Page"
+        "product": "Product"
     }
 }
